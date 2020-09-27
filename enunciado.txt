@@ -1,0 +1,29 @@
+Una ferretería recibe a diario pedidos de sus 200 clientes,
+esta ferretería comercializa 1000 tipos distintos de lámparas y posee 10 empleados encargados de la recepción y entrega de los pedidos.
+
+Se sabe que tienen los siguientes lotes de datos
+Lote 1
+•    Nro de lámpara
+•    Precio
+•    Stock actual
+
+Lote 2
+•    Nro de empleado 
+•    Comisión sobre las ventas
+
+Cada vez que recibe un pedido tiene los siguientes datos, que finalizan con nro de pedido=0
+•    Nro de pedido
+•    Nro de lámpara
+•    Cantidad pedida
+•    Empleado que atendió el pedido
+
+Solo se pueden vender aquellas lámparas que tienen stock suficiente para cumplimentar el pedido.
+Cada vez que se efectúe un pedido correctamente se debe actualizar el stock.
+Se desea saber:
+
+1.    Que cantidad de pedidos atendió cada empleado para cada tipo de lámpara
+2.    lámpara más solicitada
+3.    Para cada lámpara, que empleado vendió más cantidad
+4.    stock final actualizado de cada nro de lámpara
+5.    Imprima ordenado el listado de lámparas con su stock disponible 
+6.    Escribir con comentarios en el código donde se invocan, donde se definen y donde se declaran las funciones utilizadas (utilizar al menos una función)
